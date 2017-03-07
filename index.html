@@ -25,9 +25,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <form class="navbar-form navbar-right" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search for GIFs">
+                            <input type="text" class="form-control" id="searchInput" placeholder="Search for GIFs">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default" id="submitButton">Submit</button>
                     </form>
                 </ul>
             </div>
@@ -37,20 +37,20 @@
         <div class="row">
             <div class="col-md-12">
               <button class="btn btn-success topicButton" data-topic="Archer">Archer</button>
-              <button class="btn btn-success topicButton" data-topic="Don Draper">Don Draper</button>
+              <button class="btn btn-success topicButton" data-topic="Roger Sterling">Roger Sterling</button>
               <button class="btn btn-success topicButton" data-topic="Hank Moody">Hank Moody</button>
             </div>
             <div class="col-md-12" id="userButtons"></div>
         </div>
         <hr />
         <div class="row">
-            <div class="col-md-12">first row of GIFs</div>
+            <div class="col-md-12" id="topRow"></div>
         </div>
         <div class="row">
-            <div class="col-md-12">second row of GIFs</div>
+            <div class="col-md-12" id="middleRow"></div>
         </div>
         <div class="row">
-            <div class="col-md-12">third row of GIFs</div>
+            <div class="col-md-12" id="bottomRow"></div>
         </div>
     </div>
 

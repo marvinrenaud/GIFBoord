@@ -9,6 +9,17 @@
   min-width: 125px;
 }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0px 0px 0px;
+}
+
+.gifImage {
+  margin: 10px 20px 10px 0px;
+}
+
 
 
 
