@@ -26,6 +26,8 @@ $(document).ready(function() {
     $("#submitButton").on("click", function(event){
       event.preventDefault();
 
+
+
       $("#topRow").empty();
       $("#middleRow").empty();
       $("#bottomRow").empty();
@@ -38,6 +40,7 @@ $(document).ready(function() {
 
       // Create the queryURL based on the button clicked
       topic = $("input").val();
+      $("#userButtons").append("<button class='btn btn-info userTopicButton' data-topic='Archer'>"+ topic +"</button>")
       console.log("Test: " + topic);
       queryURL = queryURLBase + "q=" + topic + limitSearch + apiKey;
       console.log(queryURL);
