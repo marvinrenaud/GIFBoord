@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     // Declare the set of global variables to be used
-    var queryURLBase = "http://api.giphy.com/v1/gifs/search?";
+    var queryURLBase = "https://api.giphy.com/v1/gifs/search?";
     var apiKey = "&api_key=dc6zaTOxFJmzC";
     var limitSearch = "&limit=9&rating=pg-13";
     var queryURL = "";
